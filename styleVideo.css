@@ -1,0 +1,103 @@
+@font-face{
+    font-family: "tapon";
+    src: url('font/PermanentMarker-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.redes {
+    position: relative;
+    align-items: right;
+    text-align: right;
+}
+
+.redesT {
+    width: 40px;
+    height: 40px;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: space-between;
+    text-align: center;
+    cursor: url(cursor/cursor.cur), pointer;
+}
+
+li {
+    padding: 1rem 2rem 1.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ebebeb;
+    min-width: 80px;
+    margin: auto;
+    cursor: url(cursor/cursor.cur), pointer;
+}
+
+li:hover {
+    background-image: url("https://scottyzen.sirv.com/Images/v/button.png");
+    background-size: 100% 100%;
+    color: #27262c;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+    font-weight: bold;
+}
+
+li:active {
+    transform: translateY(4px);
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    background: #334;
+    cursor: url(cursor/cursor.cur), pointer;
+
+}
+
+.container h1{
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 80px;
+    font-weight:normal;
+    font-family: 'tapon'
+}
+
+h1:hover{
+    transform: rotate(19deg) scale(1.1) skew(17deg) translate(7px,1px);
+-webkit-transform: rotate(19deg) scale(1.1) skew(17deg) translate(7px,1px);
+-moz-transform: rotate(19deg) scale(1.1) skew(17deg) translate(7px,1px);
+text-shadow: 4px 4px 2px rgba(168, 7, 7, 0.993);
+}
+
+.container .video-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    cursor: url(cursor/cursor.cur), pointer;
+    text-align: center;
+    align-items: center;
+}
+
+.container .video-container .video{
+    height:310px;
+    width: 450px;
+    border-radius: 5px;
+    background: #27262c;
+    box-shadow: 0 5px 15px rgba(0,0,0.7);
+    cursor: pointer;
+    overflow: hidden;
+    cursor: url(cursor/cursor.cur), pointer;
+}
+
